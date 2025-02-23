@@ -16,8 +16,12 @@ This project explores the **Iris dataset** using Python. The dataset contains me
 ###  **Task 3: Summarize the Data**
 - Calculated **mean, min, max, standard deviation, and median** for each feature.
 
+###  **Task 4: Visualize Features**
+- Created **histograms** for each feature using `matplotlib`.
+- Added **titles and axis labels** to improve readability.
+
 ## How to Run the Code
 
 1. Install required libraries:
    ```bash
-   pip install pandas numpy scikit-learn
+   pip install pandas numpy scikit-learn matplotlib
