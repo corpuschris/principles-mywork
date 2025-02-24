@@ -20,6 +20,10 @@ This project explores the **Iris dataset** using Python. The dataset contains me
 - Created **histograms** for each feature using `matplotlib`.
 - Added **titles and axis labels** to improve readability.
 
+###  **Task 5: Investigate Relationships**
+- Created a **scatter plot** comparing **sepal length** and **petal length**.
+- Color-coded the points based on the three different species.
+
 ## How to Run the Code
 
 1. Install required libraries:
