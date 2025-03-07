@@ -24,8 +24,19 @@ This project explores the **Iris dataset** using Python. The dataset contains me
 - Created a **scatter plot** comparing **sepal length** and **petal length**.
 - Color-coded the points based on the three different species.
 
+###  **Task 6: Analyze Relationship**
+- Used **`numpy.polyfit`** to compute a **regression line** for the scatter plot.
+- Plotted the **regression line** on top of the scatter plot.
+
+###  **Task 7: Analyze Class Distributions**
+- Created **box plots** to show the distribution of **petal lengths** for each species.
+- Compared the spread and median values of petal lengths.
+
 ## How to Run the Code
 
-1. Install required libraries:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib
+```bash
+# Install required libraries
+pip install pandas numpy scikit-learn matplotlib
+
+# Run the script
+python iris_analysis.py
