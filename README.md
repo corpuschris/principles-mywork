@@ -1,6 +1,16 @@
 # Iris Dataset Analysis
 
-This project explores the **Iris dataset** using Python. The dataset contains measurements of iris flowers and their species. The goal is to analyze and visualize the data.
+This project explores the **Iris dataset**, a well-known dataset in statistics and machine learning. The dataset consists of **150 samples** of iris flowers, each with four numerical features:
+
+- Sepal Length (cm)
+- Sepal Width (cm)
+- Petal Length (cm)
+- Petal Width (cm)
+
+Each flower belongs to one of **three species**: *Setosa, Versicolor, or Virginica*.  
+The goal of this project is to analyze, visualize, and interpret the dataset using Python.
+
+---
 
 ## Progress So Far
 
@@ -32,11 +42,23 @@ This project explores the **Iris dataset** using Python. The dataset contains me
 - Created **box plots** to show the distribution of **petal lengths** for each species.
 - Compared the spread and median values of petal lengths.
 
+###  **Task 8: Compute Correlations**
+- Calculated the **correlation coefficients** between all features.
+- Displayed the **correlation matrix** as a heatmap using `seaborn` and `matplotlib`.
+
 ## How to Run the Code
 
 ```bash
 # Install required libraries
-pip install pandas numpy scikit-learn matplotlib
+pip install pandas numpy scikit-learn matplotlib seaborn
 
 # Run the script
 python iris_analysis.py
+
+## Dependencies & References
+
+- Pandas Documentation (https://pandas.pydata.org/docs/) - Used for data manipulation.
+- NumPy Documentation (https://numpy.org/doc/) - Used for numerical operations.
+- Matplotlib Documentation (https://matplotlib.org/stable/contents.html) - Used for data visualization.
+- Seaborn Documentation (https://seaborn.pydata.org/) - Used for creating statistical plots.
+- scikit-learn Documentation (https://scikit-learn.org/stable/) - Used to load the Iris dataset.
