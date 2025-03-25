@@ -46,6 +46,11 @@ The goal of this project is to analyze, visualize, and interpret the dataset usi
 - Calculated the **correlation coefficients** between all features.
 - Displayed the **correlation matrix** as a heatmap using `seaborn` and `matplotlib`.
 
+### Task 9: Fit a Simple Linear Regression
+- Reused the two features from Task 5: **sepal length** and **petal length**.
+- Calculated the **coefficient of determination (R²)** using NumPy.
+- Recreated the scatter plot from Task 6 and **annotated the R² value** on the chart.
+
 ## How to Run the Code
 
 ```bash
