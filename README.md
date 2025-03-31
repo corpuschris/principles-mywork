@@ -51,6 +51,11 @@ The goal of this project is to analyze, visualize, and interpret the dataset usi
 - Calculated the **coefficient of determination (R²)** using NumPy.
 - Recreated the scatter plot from Task 6 and **annotated the R² value** on the chart.
 
+### Task 10: Too Many Features
+- Created a **pairplot** using `seaborn` to compare all numerical features across species.
+- Explained how the pairplot reveals which features separate the species clearly, and where there is more overlap.
+
+
 ## How to Run the Code
 
 ```bash
